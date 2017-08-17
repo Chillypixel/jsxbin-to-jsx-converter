@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>jsxbin_to_jsx</id>
+        <version>1.0.0-createTest</version>
+        <title>jsxbin_to_jsx</title>
+        <authors>jsxbin_to_jsx</authors>
+        <owners>jsxbin_to_jsx</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Description</description>
+        <copyright>Copyright ©  2015</copyright>
+    </metadata>
+    <files>
+        <file src="lib\net45\jsxbin_to_jsx.exe" target="lib\net45\jsxbin_to_jsx.exe" />
+    </files>
+</package>
