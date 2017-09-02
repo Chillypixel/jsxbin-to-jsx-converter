@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>jsxbin_to_jsx</id>
-        <version>1.0.0-createTest</version>
+        <version>1.0.7-createTest</version>
         <title>jsxbin_to_jsx</title>
         <authors>jsxbin_to_jsx</authors>
         <owners>jsxbin_to_jsx</owners>
@@ -11,6 +11,7 @@
         <copyright>Copyright ©  2015</copyright>
     </metadata>
     <files>
-        <file src="lib\net45\jsxbin_to_jsx.exe" target="lib\net45\jsxbin_to_jsx.exe" />
+        <file src="bin\debug\jsxbin_to_jsx.exe" target="lib\net45\jsxbin_to_jsx.exe" />
+        <file src="bin\debug\jsbeautifier.dll" target="lib\net45\jsbeautifier.dll" />
     </files>
 </package>

@@ -132,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="jsxbin_to_jsx.nuspec" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
@@ -142,7 +143,7 @@
   <PropertyGroup>
     <PostBuildEvent>nuget pack $(ProjectDir)jsxbin_to_jsx.csproj
 
-nuget push $(ProjectDir)jsxbin_to_jsx.1.0.0.nupkg -Source %25ProgramFiles(x86)%25\Microsoft SDKs\NuGetPackages</PostBuildEvent>
+nuget push $(TargetDir)jsxbin_to_jsx.*.nupkg -Source "%25ProgramFiles(x86)%25\Microsoft SDKs\NuGetPackages"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
